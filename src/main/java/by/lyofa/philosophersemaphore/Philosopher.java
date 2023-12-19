@@ -28,6 +28,7 @@ class Philosopher extends Thread {
                 System.out.println(name + " fed up in " + feedTime + " sec! Philosopherr leaves the table");
                 sem.release();
 //
+//
 //                sleep(300);
             }
         } catch (InterruptedException e) {
